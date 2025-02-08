@@ -1,0 +1,20 @@
+{
+    "name": "Android Voice Distance Tracker",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "17"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "naco-siren.gradle-language",
+                "google-cloud-spell-check.spell-checker",
+                "vscjava.vscode-gradle",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ]
+        }
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y android-sdk && yes | sdkmanager --licenses"
+}
