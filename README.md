@@ -4,8 +4,6 @@
 
 VoiceDistanceTracker is an Android application that calculates the distance of speaking using sound propagation principles. This project is primarily written in Java with some shell scripts.
 
-To add an architecture design for the `VoiceDistanceTracker` project, you can include a new section in the `README.md` file or create a new document that details the architecture. Here's an example of how you can structure the architecture design:
-
 ### Architecture Design
 
 #### Overview
